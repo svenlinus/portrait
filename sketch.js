@@ -15,7 +15,7 @@ function setup() {
     color('#EF5B5B'), // red
     color('#23001E'), // purple
   ];
-  cnv = createCanvas(windowWidth, windowHeight);
+  cnv = createCanvas(1680, 904);
   background(100);
   noStroke();
   for (let i = 0; i < height; i += 20) {
